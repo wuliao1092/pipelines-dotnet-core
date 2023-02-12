@@ -39,3 +39,4 @@ steps:
       
       Write-Host "Hello World"
       Write-Host "##vso[build.addbuildtag]$(EnvironmentTag)"
+      Write-Host "##vso[build.addbuildtag]$(ARTIFACTSNAME)"
