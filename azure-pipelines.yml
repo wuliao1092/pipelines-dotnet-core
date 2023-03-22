@@ -29,7 +29,7 @@ steps:
   inputs:
     targetPath: '$(Pipeline.Workspace)'
     artifactType: 'pipeline'
-    artifactName: 'drop'
+    artifactName: 'drop1'
 
 - task: PowerShell@2
   inputs:
